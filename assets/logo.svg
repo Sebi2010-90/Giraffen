@@ -1,0 +1,10 @@
+<!-- Einfaches SVG-Logo; ersetze oder passe an -->
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="40" viewBox="0 0 120 40" role="img" aria-labelledby="title">
+  <title id="title">Maxi — Die Welt der Giraffen</title>
+  <rect rx="8" width="120" height="40" fill="none"/>
+  <g fill="none" stroke="#d88a2b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10 30 C15 12, 25 12, 30 30" />
+    <circle cx="40" cy="18" r="3" fill="#d88a2b"/>
+  </g>
+  <text x="52" y="24" font-family="Lora, serif" font-size="16" fill="#0b1720">Maxi</text>
+</svg>
