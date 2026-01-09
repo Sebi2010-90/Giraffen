@@ -1,0 +1,4 @@
+<!-- Schematische Giraffen-Silhouette als SVG -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Giraffen Silhouette">
+  <path d="M50 330 L90 200 L130 200 L150 260 L180 220 L220 220 L200 320 L260 320 L280 240 L320 220 L360 220 L380 280 L420 280 L420 330 Z" fill="#d88a2b" opacity="0.95"/>
+</svg>
