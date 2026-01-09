@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Maxi — Die Welt der Giraffen</title>
+  <meta name="description" content="Maxi: Eine schön gestaltete, detaillierte Website über Giraffen — Anatomie, Verhalten, Lebensräume, Schutz, Spiele und Leaderboards." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Maxi — Die Welt der Giraffen",
+    "url": "./",
+    "description": "Eine schöne und detaillierte Sammlung von Informationen und Bildern über Giraffen."
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#home" aria-label="Maxi — Die Welt der Giraffen">
+        <img src="assets/logo.svg" alt="Logo Maxi — Giraffen" height="48">
+        <span class="brand">Maxi</span>
+      </a>
+
+      <nav class="nav" id="main-nav" aria-label="Hauptnavigation">
+        <button id="nav-toggle" aria-expanded="false" aria-controls="nav-list" class="nav-toggle">☰</button>
+        <ul id="nav-list" class="nav-list">
+          <li><a href="#about">Über Giraffen</a></li>
+          <li><a href="#anatomy">Anatomie</a></li>
+          <li><a href="#habitat">Lebensraum</a></li>
+          <li><a href="#conservation">Schutz</a></li>
+          <li><a href="#gallery">Galerie</a></li>
+          <li><a href="#facts">Fun-Facts</a></li>
+          <li><a href="#games">Spiele</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="theme-toggle" aria-pressed="false" title="Hell/Dunkel wechseln">🌗</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1>Maxi — Die Welt der Giraffen</h1>
+          <p class="lead">Majestätisch, einzigartig und unverwechselbar: Erfahre alles über die höchste Landsäugetier-Art der Erde — von der Zunge bis zur Höhe, von Familie bis Schutz.</p>
+          <p class="cta-row">
+            <a class="btn primary" href="#about">Mehr erfahren</a>
+            <a class="btn ghost" href="#gallery">Fotos ansehen</a>
+          </p>
+        </div>
+        <figure class="hero-media" aria-hidden="false">
+          <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1600&q=80&auto=format&fit=crop" alt="Giraffe im Abendlicht">
+          <figcaption>Giraffenfamilie in der Savanne</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <h2>Über Giraffen</h2>
+      <p>Giraffen (Giraffa camelopardalis) sind Langhalssäuger, die in den offenen Graslandschaften Afrikas leben. Sie sind bekannt für ihren extrem langen Hals, ihre einzigartigen Fellmuster und ihr sanftes Verhalten gegenüber Artgenossen.</p>
+      <div class="cards">
+        <article class="card">
+          <h3>Arten & Unterarten</h3>
+          <p>Es gibt mehrere Unterarten, die sich in Fellzeichnung und Verbreitungsgebiet unterscheiden. In jüngster Zeit wurde die Einteilung immer wieder überarbeitet.</p>
+        </article>
+        <article class="card">
+          <h3>Sozialverhalten</h3>
+          <p>Giraffen leben in lockeren Herden — soziale Bindungen sind flexibel, Männchen kämpfen gelegentlich mit dem Hals (Necking) um Rang und Paarung.</p>
+        </article>
+        <article class="card">
+          <h3>Ernährung</h3>
+          <p>Hauptsächlich Blätter (vor allem Akazien), Zweige und Blattknospen. Die Zunge ist lang und dunkel (bis ~45 cm), ideal zum Greifen von Blättern zwischen Dornen.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="anatomy" class="section pale">
+      <div class="container">
+        <h2>Anatomie — Was macht Giraffen besonders?</h2>
+        <div class="two-column">
+          <div>
+            <ul class="feature-list">
+              <li><strong>Hals:</strong> Sieben Halswirbel wie Menschen, aber stark verlängert.</li>
+              <li><strong>Herz:</strong> Sehr kräftig — bis zu 11 kg — um Blut in den Kopf zu pumpen.</li>
+              <li><strong>Beine & Gang:</strong> Lange Beine; Galopp erreicht überraschend hohe Geschwindigkeiten.</li>
+              <li><strong>Pattche/ Fell:</strong> Individuelle Muster — wie ein Fingerabdruck.</li>
+            </ul>
+          </div>
+          <div>
+            <figure class="illustration">
+              <img src="assets/giraffe-silhouette.svg" alt="Schematische Darstellung einer Giraffe">
+              <figcaption>Schematische Darstellung wichtiger Merkmale</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="habitat" class="section container">
+      <h2>Lebensraum & Verbreitung</h2>
+      <p>Giraffen bewohnen Savannen, offene Wälder und Buschland in Afrika. Der Lebensraum verteilt sich über verschiedene Regionen — von Ost- bis Südafrika. Landnutzungsänderungen, Fragmentierung und Konflikte mit Menschen schränken jedoch die Lebensräume ein.</p>
+
+      <div class="map-card">
+        <h3>Verbreitungskarte (vereinfachte Darstellung)</h3>
+        <div class="map-placeholder" role="img" aria-label="Vereinfachte Verbreitungskarte von Giraffen">
+          <svg viewBox="0 0 1000 400" preserveAspectRatio="xMidYMid meet" class="svg-map" aria-hidden="true">
+            <rect width="100%" height="100%" fill="#f3f6f9"/>
+            <g transform="translate(50,40)" fill="#d88a2b" opacity="0.9">
+              <circle cx="180" cy="120" r="70"/>
+              <circle cx="320" cy="160" r="92"/>
+              <circle cx="520" cy="160" r="82"/>
+              <circle cx="720" cy="140" r="60"/>
+            </g>
+          </svg>
+        </div>
+        <p class="small">Hinweis: Für eine interaktive Karte kannst du Mapbox oder Leaflet einbinden und echte Verbreitungsdaten overlayen.</p>
+      </div>
+    </section>
+
+    <section id="conservation" class="section">
+      <div class="container">
+        <h2>Schutz & Bedrohungen</h2>
+        <p>Giraffen sind in vielen Regionen bedroht. Hauptgefährdungen: Lebensraumverlust, Wilderei, Konflikte mit Menschen und Klimawandel.</p>
+        <div class="conservation-grid">
+          <article class="card">
+            <h3>Was wird getan?</h3>
+            <ul>
+              <li>Schutzgebiete und Korridore</li>
+              <li>Forschung & Bestandsaufnahme</li>
+              <li>Community-basierte Projekte</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Wie du helfen kannst</h3>
+            <ul>
+              <li>Spenden an seriöse Naturschutzorganisationen</li>
+              <li>Bewusst reisen & lokale Initiativen unterstützen</li>
+              <li>Bildungsarbeit und Öffentlichkeitsarbeit</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section container">
+      <h2>Galerie</h2>
+      <p class="small">Klicke ein Bild an, um es zu vergrößern.</p>
+      <div class="gallery-grid" id="gallery-grid">
+        <figure class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1501706362039-c6e809f12465?w=800&q=80&auto=format&fit=crop" alt="Giraffe nahe">
+          <figcaption>Portrait</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&q=80&auto=format&fit=crop" alt="Giraffenherde">
+          <figcaption>Herde in der Savanne</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?w=800&q=80&auto=format&fit=crop" alt="Giraffe frisst">
+          <figcaption>Beim Fressen</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1508672019048-805c876b67e2?w=800&q=80&auto=format&fit=crop" alt="Giraffen am Wasser">
+          <figcaption>Am Wasserloch</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="facts" class="section pale">
+      <div class="container">
+        <h2>Fun-Facts</h2>
+        <ul class="facts-list">
+          <li>Giraffen erreichen eine Höhe von bis zu 6 Metern.</li>
+          <li>Die Zunge ist bis zu 45 cm lang und meist dunkel gefärbt.</li>
+          <li>Giraffen schlafen sehr kurz — oft nur wenige Minuten am Stück.</li>
+          <li>Die Muster sind individuell und helfen bei der Wärme-Regulierung.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Spiele-Abschnitt -->
+    <section id="games" class="section">
+      <div class="container">
+        <h2>Spiele & Leaderboard</h2>
+        <p class="small">Spiele gegen die Zeit, sammle Punkte und trage dich ins Leaderboard ein. Leaderboards werden lokal in deinem Browser gespeichert.</p>
+
+        <div class="games-grid">
+          <article class="card game-card" id="memory-card">
+            <h3>Memory — Giraffenmuster</h3>
+            <p>Finde die passenden Paare. Weniger Züge und schnellere Zeit = höherer Score.</p>
+            <div class="game-ui">
+              <div id="memory-info" class="game-info">
+                <span>Züge: <strong id="mem-moves">0</strong></span>
+                <span>Zeit: <strong id="mem-time">0s</strong></span>
+              </div>
+              <div id="memory-board" class="memory-board" role="grid" aria-label="Memory Spiel"></div>
+              <div class="game-actions">
+                <button class="btn primary" id="mem-start">Neues Spiel</button>
+                <button class="btn ghost" id="mem-leaderboard-toggle">Leaderboard ansehen</button>
+              </div>
+            </div>
+            <div class="leaderboard-wrap" id="mem-leaderboard" hidden>
+              <h4>Leaderboard — Memory</h4>
+              <ol id="mem-leader-list" class="leader-list"></ol>
+              <div class="lb-actions">
+                <button class="btn ghost" data-clear="memory">Leaderboard löschen</button>
+                <button class="btn ghost" data-close="mem">Schließen</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="card game-card" id="quiz-card">
+            <h3>Quiz — Test dein Wissen</h3>
+            <p>Mehr richtige Antworten in kürzerer Zeit bringen einen höheren Score.</p>
+            <div class="game-ui">
+              <div id="quiz-info" class="game-info">
+                <span>Frage: <strong id="quiz-index">0/0</strong></span>
+                <span>Zeit: <strong id="quiz-time">0s</strong></span>
+              </div>
+              <div id="quiz-board" class="quiz-board" aria-live="polite"></div>
+              <div class="game-actions">
+                <button class="btn primary" id="quiz-start">Quiz starten</button>
+                <button class="btn ghost" id="quiz-leaderboard-toggle">Leaderboard ansehen</button>
+              </div>
+            </div>
+            <div class="leaderboard-wrap" id="quiz-leaderboard" hidden>
+              <h4>Leaderboard — Quiz</h4>
+              <ol id="quiz-leader-list" class="leader-list"></ol>
+              <div class="lb-actions">
+                <button class="btn ghost" data-clear="quiz">Leaderboard löschen</button>
+                <button class="btn ghost" data-close="quiz">Schließen</button>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="small" style="margin-top:1rem;">
+          Hinweis: Die Leaderboards werden nur lokal in deinem Browser gespeichert. Wenn du möchtest, kann ich später eine serverseitige Lösung (z. B. mit GitHub Actions + Firebase / Netlify Functions) ergänzen, damit mehrere Spieler ihre Scores teilen können.
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <h2>Kontakt & Mehr</h2>
+      <p>Du möchtest die Seite anpassen oder mehr Inhalte hinzufügen? Nutze das Repo / die Dateien, um Texte oder Bilder zu aktualisieren.</p>
+      <form class="contact-form" onsubmit="return false" aria-label="Kontaktformular">
+        <label>
+          Name
+          <input type="text" name="name" placeholder="Dein Name">
+        </label>
+        <label>
+          Nachricht
+          <textarea name="message" rows="4" placeholder="Schreibe uns..."></textarea>
+        </label>
+        <div class="form-actions">
+          <button class="btn primary" type="submit" disabled title="Nur Demo">Absenden (Demo)</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Maxi — Die Welt der Giraffen. Fotos: Unsplash (Platzhalter). Inhalte: Open, zur Verwendung und Anpassung.</p>
+      <nav aria-label="Footer">
+        <a href="#privacy">Datenschutz</a>
+        <a href="#credits">Credits</a>
+      </nav>
+    </div>
+  </footer>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button class="lightbox-close" aria-label="Schließen">✕</button>
+    <img src="" alt="" id="lightbox-img">
+    <p id="lightbox-caption"></p>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
